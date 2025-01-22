@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "nah"
+		"sources": "https://github.com/somethingnechto/nechto-test-stuff-template-1.21.4"
 	},
-	"license": "nah",
+	"license": "CC0 1.0",
 	"icon": "assets/nechtostuff/icon.png",
 	"environment": "*",
 	"entrypoints": {
