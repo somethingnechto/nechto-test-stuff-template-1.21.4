@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nechtostuff",
+	"version": "${version}",
+	"name": "Nechto test stuff",
+	"description": "goofy ahh stuff",
+	"authors": [
+		"nechto"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "nah"
+	},
+	"license": "nah",
+	"icon": "assets/nechtostuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nechto.nechtostuff.NechtoTestStuff"
+		],
+		"fabric-datagen": [
+			"net.nechto.nechtostuff.NechtoTestStuffDataGenerator"
+		],
+		"client": [
+			"net.nechto.nechtostuff.NechtoTestStuffClient"
+		]
+	},
+	"mixins": [
+		"nechtostuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
