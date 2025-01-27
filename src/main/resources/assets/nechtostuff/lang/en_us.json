@@ -1,4 +1,6 @@
 {
   "item.nechtostuff.magic_rock": "Magic Rock",
-  "item.nechtostuff.magic_geode": "Magic Geode"
+  "item.nechtostuff.magic_geode": "Magic Geode",
+
+  "block.nechtostuff.magic_rock_ore": "Magic Rock Ore"
 }
